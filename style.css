@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 6.25rem;
+    width: 100%;
+    background-color: #ffde59;
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    width: 100%;
+    background-color: white;
+    flex: 1 0;
+}
+
+.footer {
+    height: 6.25rem;
+    width: 100%;
+    background-color: #131A35;
+    display: flex;
+    align-items: center;
+}
+
+.header_container {
+    margin: 0 16.25rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 5.3125rem;
+    height: 5.3125rem;
+    margin: 0.5rem;
+    background-image: url(/image/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header_input {
+    width: 44rem;
+    height: 2.688rem;
+    margin: 0 8.125rem;
+    padding: 1rem;
+    background-color: #C4C4C4;
+    border: none;
+    outline: none;
+}
+
+.header_social_login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.563rem;
+}
+
+.header_login {
+    margin-left: 0.5rem;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.main_container {
+    margin: 9.375rem 15rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 9.125rem;
+}
+
+.section {
+    height: 16.875rem;
+    width: 100%;
+}
+
+.name_category {
+    margin: 0 0 1.5rem 0;
+    font-size: 36px;
+    line-height: 42px;
+    color: #131A35;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picter {
+    height: 11.25rem;
+    width: 15.625rem;
+    background-color: #131A35;
+}
+
+.other_posters{
+    text-align: right;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.footer_container {
+    margin: 0 16.25rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.563rem;
+}
+
+.footer_IT-hackathon {
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFDE59;
+    text-align: center;
+    margin: 0.4rem 0 0 0;
+}
+
+.footer_social_hackathon{
+    margin: 1.5rem 0 1rem 0;
+}
